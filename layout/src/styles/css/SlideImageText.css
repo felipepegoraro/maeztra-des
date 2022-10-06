@@ -1,0 +1,60 @@
+.container-slide-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  height: 430px;
+  object-fit: contain;
+  inset: 0;
+}
+.container-slide-image .sub-main-slide {
+  padding-left: 20%;
+}
+.container-slide-image .sub-main-slide .main-slide-text1 {
+  color: #ffffff;
+  width: 471px;
+  height: 49px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  padding-bottom: 20px;
+}
+.container-slide-image .sub-main-slide .main-slide-text2 {
+  color: #ffffff;
+  width: 467px;
+  height: 48px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-slide-image {
+    width: 100vw;
+    height: 15%;
+    background-position: 30% 0%;
+  }
+  .container-slide-image .sub-main-slide {
+    padding-left: 7%;
+    padding-bottom: 20px;
+  }
+  .container-slide-image .sub-main-slide .main-slide-text1 {
+    width: 271px;
+    height: 29px;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0px;
+  }
+  .container-slide-image .sub-main-slide .main-slide-text2 {
+    width: 267px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px;
+  }
+}
+
+/*# sourceMappingURL=SlideImageText.css.map */
