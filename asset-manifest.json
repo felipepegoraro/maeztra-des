@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maeztra-des/static/css/main.0e648790.css",
+    "main.js": "/maeztra-des/static/js/main.5ca0198b.js",
+    "index.html": "/maeztra-des/index.html",
+    "main.0e648790.css.map": "/maeztra-des/static/css/main.0e648790.css.map",
+    "main.5ca0198b.js.map": "/maeztra-des/static/js/main.5ca0198b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e648790.css",
+    "static/js/main.5ca0198b.js"
+  ]
+}
